@@ -1,0 +1,15 @@
+{
+  "ruby.useLanguageServer": true,
+  "ruby.lint": {
+    "rubocop": true
+  },
+  "ruby.format": "rubocop",
+  "editor.formatOnSave": true,
+  "[ruby]": {
+    "editor.defaultFormatter": "castwide.solargraph",
+    "editor.formatOnSave": true
+  },
+  "solargraph.formatting": true,
+  "ruby.rubocop.executePath": "/Users/kyun/.rvm/gems/ruby-3.3.5/bin/",
+  "ruby.rubocop.onSave": true
+}
