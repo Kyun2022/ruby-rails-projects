@@ -1,0 +1,7 @@
+<p>Hello Wiew!</p>
+<p><%= @num %></p>
+<ul>
+  <% @users.each do |user| %>
+    <li><%= user.id %>, <%= user.name %>, <%= user.age %></li>
+  <% end %>
+</ul>
